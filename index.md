@@ -1,28 +1,3 @@
-<style type="text/css">
-html,body { padding: 0;margin: 0; background: #272727;font: 400 16px/1.7 "Microsoft JhengHei", sans-serif;}
-div,ul,li,h1,p,h2{padding: 0;margin: 0;}
-ul,li{list-style: none;}
-.main{text-align: center;}
-.content{ margin:0 auto; width:90%;}
-#lovexin12,#lovexin14{border:2px solid red;z-index:9999;
-}
-@media only screen and (min-width:0px) and (max-width:1120px){
-#lovexin12 img,#lovexin14 img{width:200px;}
-}
-</style>
-  
- <script>
-function loadCSS() {
-if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|wOSBrowser|BrowserNG|WebOS)/i))) {
-document.write('<link href="phone.css" rel="stylesheet" type="text/css" media="screen" />');
-}else {
-document.write('<link href="pc.css" rel="stylesheet" type="text/css" media="screen" />');
-}
-}
-loadCSS();
-</script>
-
-
 </head>
 
 <body>
